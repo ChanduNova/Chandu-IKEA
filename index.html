@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            padding: 0% 27%;
+        }
+
+        .ikea-links i {
+            display: flex;
+            padding-inline: 3rem 3.6rem;
+        }
+
+        .ikea {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        .section2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 2% 10px 7%;
+        }
+
+        .section2 .div1 {
+            display: flex;
+            width: 40%;
+            justify-content: space-around;
+        }
+
+        .div1 img {
+            width: 12%;
+            padding-left: 8%;
+            padding-right: 5%;
+        }
+
+        .section2 .search {
+            width: 70%;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            background-color: whitesmoke;
+            padding-left: 2%;
+        }
+
+        .search input {
+            background-color: whitesmoke;
+            border: none;
+            outline: none;
+            flex: 0;
+            padding: 2%;
+        }
+
+        .section2 .ikea {
+            justify-content: space-between;
+            display: flex;
+            align-items: end;
+        }
+
+        .search .fa-camera {
+            padding-left: 45%;
+        }
+
+        .section2 .fa-truck {
+            padding-right: 12px;
+            padding-left: 30px;
+        }
+
+        .section2 .fa-house {
+            padding-right: 10px;
+            padding-left: 30px;
+        }
+
+        .section2 .fa-user {
+            padding-right: 10px;
+            padding-left: 30px;
+        }
+
+        .section2 .fa-heart {
+            padding-right: 10px;
+            padding-left: 30px;
+        }
+
+        .section2 .fa-bag-shopping {
+            padding-right: 35px;
+            padding-left: 20px;
+        }
+
+        .search .ser {
+            font-size: 100%;
+        }
+
+        .section3 .div2 {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .section3 .fa-store {
+            padding-left: 10.5%;
+        }
+
+        .section3 {
+            justify-content: space-evenly;
+        }
+
+        .div2 p {
+            padding-right: 0.7%;
+            padding-left: 2%;
+        }
+
+        .section3 .fa-house {
+            padding-right: 0.5%;
+            padding-left: 2%;
+        }
+
+        .section3 .fa-store {
+            padding-right: 0.3%;
+        }
+
+        .section4 .div3 {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10.5%;
+            padding-right: 5%;
+        }
+
+        .div3 img {
+            width: 5.2%;
+            padding-left: 0%;
+            padding-right: 2.5%;
+            padding-top: 2%;
+        }
+
+        .img {
+            justify-content: space-evenly;
+            padding-bottom: 5%;
+        }
+
+        .div4 {
+            display: flex;
+            padding-right: 3%;
+            padding-left: 11.5%;
+            justify-content: space-between;
+            margin-right: 1%;
+        }
+
+        .div4 .pa1 {
+            text-align: center;
+        }
+
+        .div4 .pa2 {
+            text-align: center;
+            margin-left: 25px;
+        }
+
+        .div4 .pa3 {
+            margin-left: 20px;
+        }
+
+        .div4 .pa5 {
+            margin-right: 5px;
+        }
+
+        .div4 .pa6 {
+            margin-left: 30px;
+        }
+
+        .div4 .pa7 {
+            margin-left: 40px;
+        }
+
+        .div4 .pa8 {
+            text-align: center;
+            margin-left: 14px;
+        }
+
+        .ps {
+
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3.5%;
+        }
+
+        .p1 {
+            width: 85%;
+            padding-left: 10%;
+        }
+
+        .p2 {
+            width: 50%;
+        }
+
+        .up {
+            padding-left: 9.9%;
+            color: solid black;
+            font-size: 150%;
+            padding-top: 5%;
+            padding-bottom: 2.8%;
+        }
+
+        .a {
+            height: 2px;
+            background-color: black;
+            margin-top: 1.5%;
+            margin-right: 4.8%;
+            margin-left: 9.6%;
+            margin-bottom: 1%;
+        }
+
+        .h {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 8.5%;
+            margin-right: 3.8%;
+
+        }
+
+        .h div {
+            background-color: rgb(253, 253, 9);
+            min-height: 10vh;
+            padding-bottom: 10.3%;
+
+        }
+
+        .f {
+            padding-left: 4.5%;
+            padding-right: 4.5%;
+
+        }
+
+        .f1 {
+            padding-right: 4.5%;
+            padding-left: 4.5%;
+
+        }
+
+        .f2 {
+            padding-right: 4.5%;
+            padding-left: 4.5%;
+        }
+
+        .f3 {
+            padding-right: 4.5%;
+            padding-left: 4.5%;
+        }
+
+        .f4 {
+            padding-right: 4.5%;
+            padding-left: 4.5%;
+        }
+
+        .f5 {
+            padding-right: 4.5%;
+            padding-left: 4.5%;
+        }
+
+        .f6 {
+            padding-right: 2.5%;
+            padding-left: 2.5%;
+        }
+
+        .div5 {
+            display: flex;
+            margin-left: 9.5%;
+            padding-right: 10%;
+        }
+
+        .s1 img {
+            width: 100%;
+        }
+
+        .s2 img {
+            width: 117%;
+            margin-left: 2%;
+
+        }
+
+        .s3 img {
+            width: 100%;
+            margin-left: 18%;
+        }
+
+        .b {
+            padding-left: 9.3%;
+            font-size: 150%;
+            padding-bottom: 2.8%;
+        }
+
+        .a1 {
+            height: 2px;
+            background-color: black;
+            margin-top: 0.5%;
+            margin-right: 4.8%;
+            margin-left: 9.6%;
+            margin-bottom: 5%;
+        }
+
+        .div6 {
+            display: flex;
+        }
+
+        .scrollable-content1 {
+            display: flex;
+            overflow: auto;
+        }
+
+        .g1 {
+            padding-left: 10%;
+            padding-right: 0.5%;
+        }
+
+        .g2 {
+            padding-right: 0.5%;
+        }
+
+        .g4 {
+            padding-right: 0.5%;
+        }
+
+        .g5 {
+            padding-right: 0.5%;
+        }
+
+        .g7 {
+            padding-right: 0.5%;
+        }
+
+        .g8 {
+            padding-right: 0.5%;
+        }
+
+        .g9 {
+            padding-right: 0.5%;
+        }
+
+        .g10 {
+            padding-right: 0.5%;
+        }
+
+        .content2 {
+            display: flex;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 9.3%;
+        }
+
+        .h2 {
+            padding-right: 3.1%;
+        }
+
+        .h3 {
+            padding-right: 3.1%;
+        }
+
+        .content3 {
+            display: flex;
+            padding-left: 9.3%;
+        }
+
+        .k6 {
+            padding-left: 3.1%;
+            margin-top: -10%;
+        }
+
+        .k7 {
+            padding-left: 3.1%;
+            padding-bottom: 5%;
+        }
+
+        .do {
+            padding-left: 9.1%;
+            color: solid black;
+            font-size: 170%;
+        }
+
+        .do1 {
+            padding-left: 9.1%;
+            padding-top: 0.5%;
+            font-size: 100%;
+            padding-bottom: 1.5%;
+        }
+
+        .cn {
+            padding-left: 9.1%;
+            padding-right: 7%;
+        }
+
+        .cn0 {
+            background-color: burlywood;
+        }
+
+        .cn2 {
+            flex-direction: column;
+            padding-left: 65%;
+            margin-top: -33.5%;
+            font-size: 170%;
+            color: solid black;
+        }
+
+        .cn3 {
+            padding-left: 65%;
+            font-size: 130%;
+        }
+
+        .cn4 {
+            padding-left: 65%;
+            font-size: 130%;
+        }
+
+        .cn5 {
+            padding-left: 65%;
+            font-size: 130%;
+        }
+
+        .cn6 {
+            padding-left: 65%;
+            padding-bottom: 16%;
+            font-size: 130%;
+        }
+
+        .y {
+            padding-left: 9.1%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            font-size: 130%;
+        }
+
+        .scrollable-contento {
+            overflow: auto;
+            display: flex;
+        }
+
+        .o1 {
+            display: flex;
+            padding-left: 9.1%;
+        }
+
+        .o5 {
+            padding-right: 0.5%;
+        }
+
+        .o6 {
+            padding-right: 0.5%;
+        }
+
+        .o7 {
+            padding-right: 0.5%;
+            padding-bottom: 5%;
+        }
+
+        .o2 {
+            padding-left: 9%;
+            font-size: 130%;
+            color: solid black;
+            padding-bottom: 2%;
+        }
+
+        .o3 {
+            background-color: rgba(24, 24, 145, 0.753);
+            margin-left: 9%;
+            margin-right: 79%
+        }
+
+        .o4 {
+            padding-left: 9%;
+            font-size: 28px;
+            color: white;
+        }
+
+        .o9 {
+            color: black;
+            padding-left: 9%;
+            padding-top: 50%;
+            font-size: 30px;
+            padding-bottom: 0.4%;
+        }
+
+        .fa-arrow-right-long {
+            border: solid white;
+            border-radius: 35px;
+        }
+
+        .l0 {
+            display: flex;
+
+        }
+
+        .l1 {
+            padding-left: 21%;
+            margin-top: -19.5%;
+            margin-bottom: -10%;
+        }
+
+        .l2 {
+            padding-left: -0.5%;
+            margin-top: -19.5%;
+            margin-bottom: -10%;
+        }
+
+        .l3 {
+            padding-left: -0.5%;
+            margin-top: -19.5%;
+            margin-bottom: -10%;
+        }
+
+        .l4 {
+            padding-left: 0.5%;
+            margin-top: -13.5%;
+            margin-bottom: -10%;
+        }
+
+        .m0 {
+            padding-left: 9%;
+            padding-top: 2.5%;
+            font-size: 130%;
+            padding-bottom: 2%;
+        }
+
+        .m2 {
+            display: flex;
+        }
+
+        .m3 {
+            padding-left: 9%;
+        }
+
+        .m4 {
+            padding-left: 1.5%;
+        }
+
+        .m5 {
+            padding-left: 8.8%;
+            font-size: 130%;
+            background-color: solid black;
+        }
+
+        .m7 {
+            padding-left: 1.5;
+        }
+
+        .m3 {
+            background-color: solid black;
+            font-size: 110%;
+        }
+
+        .m4 {
+            padding-left: 27%;
+        }
+
+        .m6 {
+            padding-left: 8.8%;
+        }
+
+        .m10 {
+            font-size: 120%;
+        }
+
+        .m7 {
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            margin-left: 8.8%;
+            margin-right: 83%;
+            font-size: 100%;
+        }
+
+        .m8 {
+            padding-left: 35%;
+            margin-top: -13.5%;
+            font-size: 130%;
+            background-color: solid black;
+        }
+
+        .m9 {
+            padding-left: 35%;
+            margin-top: 1%;
+        }
+
+        .m12 {
+            padding-left: 55%;
+            margin-top: -9.8%;
+            font-size: 130%;
+            background-color: solid black;
+        }
+
+        .m13 {
+            padding-left: 55%;
+        }
+
+        .m14 {
+            padding-left: 72%;
+            margin-top: -22%;
+            font-size: 130%;
+        }
+
+        .m15 {
+            padding-left: 72%;
+            margin-top: 1%;
+        }
+
+        .m16 {
+            padding-left: 88%;
+            margin-top: -18.5%;
+            background-color: solid black;
+            font-size: 130%;
+        }
+
+        .m17 {
+            padding-left: 88%;
+        }
+
+        .m18 {
+            padding-left: 8.8%;
+            background-color: solid black;
+            font-size: 130%;
+        }
+
+        .m19 {
+            padding-left: 8.8%;
+        }
+
+        .m20 {
+            padding-left: 8.8%;
+        }
+
+        .m21 {
+            padding-left: -8.8;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            margin-left: 8.8%;
+            margin-right: 83%;
+            font-size: 100%;
+        }
+
+        .m22 {
+            display: flex;
+            padding-left: 8.8%;
+        }
+
+        .m23 {
+            padding-top: 3%;
+            padding-right: 1.5%;
+        }
+
+        .m24 {
+            padding-top: 3%;
+            padding-right: 1.5%;
+        }
+
+        .m25 {
+            padding-top: 3%;
+            padding-right: 1.5%;
+        }
+
+        .m26 {
+            padding-top: 3%;
+            padding-right: 1.5%;
+        }
+
+        .m27 {
+            margin-top: -1%;
+            margin-left: 88.5%;
+            padding-bottom: 2%;
+        }
+
+        .v1 {
+            padding-left: 8.8%;
+            padding-right: 5%;
+            margin-bottom: 2%;
+        }
+
+        .v2 {
+            padding-left: 8.8%;
+        }
+
+        .v3 {
+            padding-left: 80%;
+            justify-content: space-evenly;
+            margin-top: -2%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h5><i class="fa-solid fa-mobile"></i> Download the IKEA app!</h5>
+        <h5><i class="fa-solid fa-tag"></i> Our favourite products at new lower prices! Shop now.</h5>
+        <h5><i class="fa-solid fa-wallet"></i> Buy IKEA gift card!</h5>
+
+    </nav>
+    <div class="section2">
+        <div class="div1">
+            <img src="https://www.ikea.com/global/assets/logos/brand/ikea.svg">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="ser" type="search" placeholder="What are you looking for?">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+        </div>
+        <div class="ikea">
+            <i class="fa-sharp fa-solid fa-truck"></i>Enter Postal Code
+            <i class="fa-solid fa-house"></i> Select store
+            <i class="fa-solid fa-user"></i> Hej! Log in
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="div2">
+            <i class="fa-sharp fa-solid fa-store"></i>Shop products
+            <i class="fa-solid fa-house"></i> Shop by rooms
+            <p>Offers</p>
+            <p>New at IKEA</p>
+            <p>IKEA for Business</p>
+            <p>Custmer Service</p>
+            <p>Tips, ideas & trends</p>
+            <p>More</p>
+        </div>
+    </div>
+    <div class="im1">
+        <div class="section4">
+            <div class="div3">
+                <img src="https://www.ikea.com/images/4a/a5/4aa51396dc8e2432a01196c9df8a195e.jpg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/storage-organisation-st001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/furniture-fu001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/beds-mattresses-bm001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/in/en/range-categorisation/images/product/textiles-tl001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/decoration-de001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/lighting-li001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/in/en/range-categorisation/images/product/kitchenware-tableware-kt001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/in/en/range-categorisation/images/product/bathroom-products-ba001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/baby-children-bc001.jpeg?imwidth=160">
+                <img
+                    src="https://www.ikea.com/global/assets/range-categorisation/images/product/laundry-cleaning-lc001.jpeg?imwidth=160">
+            </div>
+        </div>
+        <div class="div4">
+            <p class="pa1">SALE</p>
+            <p class="pa2">Storage&<br>organisation</p>
+            <p class="pa3">Furniture</p>
+            <p class="pa4">Bed & mattresses</p>
+            <p class="pa5">Home textiles</p>
+            <p class="pa6">Decoration</p>
+            <p class="pa7">Lighting</p>
+            <p class="pa8">Kitchenware &<br>tableware</p>
+            <p class="pa9">Bathroom products</p>
+            <p class="pa10">Baby & children</p>
+            <p class="pa11">Laundry & clening</p>
+        </div>
+    </div>
+    <div class="ps">
+        <div class="p1">
+            <img src="https://www.ikea.com/images/0c/3d/0c3da0e57321951aa77693b0c1578582.jpg?f=xl">
+        </div>
+        <div class="p2"><img src="https://www.ikea.com/images/e7/a8/e7a8e2d8d964cd81740bf30278708d5a.jpg?f=xs">
+            <img src="https://www.ikea.com/images/6f/d2/6fd2acd2df29d183fb42047a106b236a.jpg?f=xs">
+        </div>
+    </div>
+    <div class="up">Up to 60% off across categories</div>
+    <div class="h">
+        <div class="f">
+            <p>Furniture</p>
+        </div>
+        <div class="f1">
+            <p>Storage</p>
+        </div>
+        <div class="f2">
+            <p>Textiles</p>
+        </div>
+        <div class="f3">
+            <p>Decoration</p>
+        </div>
+        <div class="f4">
+            <p>Lighting</p>
+        </div>
+        <div class="f5">
+            <p>Kitchenware</p>
+        </div>
+        <div class="f6">
+            <p>Rugs</p>
+        </div>
+    </div>
+    <hr class="a">
+    <div class="section5">
+        <div class="div5">
+            <p class="s1"><img src="https://www.ikea.com/images/be/d5/bed5682877bca4154ad347a1df6e357b.jpg?f=m"></p>
+            <p class="s2"><img src="https://www.ikea.com/images/54/e4/54e41be64472246f01b13e83066ba2f1.jpg?f=m"></p>
+            <p class="s3"><img src="https://www.ikea.com/images/cb/25/cb2506ae21472781a7ba4909aa659e91.png?f=m"></p>
+        </div>
+    </div>
+    <hr class="a1">
+    <div class="b">For all your needs there is IKEA</div>
+    <div class="div6">
+        <div class="scrollable-content1">
+            <div class="g1"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoT0o1SYq5b4GH8CgI_RmShfWb8D2_I7sXIA&s">
+            </div>
+            <div class="g2"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvAjmVJZzxOIgWlrOpEZhX-gqF1dWC8_KROg&s">
+            </div>
+            <div class="g3"><img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhIVFRUVFxcVFRcVFxUXFxUVFRUXFxUVF
+        RUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQFy0dHR0tKy0tLS0tLS0tLS0tLS0tLS0tLi0tLS0tKy0tLS0tLi0tLS0tLS0tLS0tLS0
+        3LS0xK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EAD4QAAIBAgMFBAgDBgYDAAAAAAABAgMRBCExBRJBUXEGImGxEz
+        JygZGhwfAjQlIHFKLC0eEzYoKSsvEVFmP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAsEQEBAAIBAwIDBwUAAAAAAAAAAQIRAxIhMQRBE1HwIjNCYXGBo
+        SMykcHR/9oADAMBAAIRAxEAPwDyFczTQ6vxEyZ5kejWWcNTFuG+Zm3TSVFjI4iZRNkoiJRNZWdjK0AzQ4iZIuVFAQKxRRACp6rqRkp6rqAWndW4r5oEGIySurr3
+        +DAAIQrn98UMBnoAXMocSiLIggNRCyMRjiMguIEUHJ8OQqIjV34kRU3aT6vzCa4/ERmQ0CQuLDiTTHchCCN6OsxNw6go543LkLaGJA2KSRJCJo0SEyKiaQ0IkjS
+        0ImjSVFLsDYZYFopJYdKN5K33ZFWPQdnIWpVpfqtHhpdPVizz6ZtXHh1XTzdgou31NGNhapLqzOypdxNmqk42+gHPp9UMp55P3eDAa1++KHCKkUFMplQkQRUQhG
+        ouxAkgAoaX+H9Si/tF2EFVNX1Lg7BTjn72FuC32MW5xWjGwgDQVsno/u5sjTM7dLkK9EQ1bhCeo9OnUgD6M21KeoqUTONWRQsJkjXOImUchlWOaESNU+JlkVEFN
+        CZIfISy4mhsDJDUOwmDnVmoU4SnKWkV95LxY9p0xpHp9jU7UF4u/wBeT5nRwn7OK0l+JWhTb4JObXV3SO7HspGMVT9Np/8ANeW8c3NyTKSR08OFxttfNdsU7VJd
+        WYGj6HtbsJOTco1o884teTZ5faHZuvTi5WU4rVwu7Lm4tXNuPklkm2XJhd26cKwTd14+aCsCm1obMSZoEfXjldcfk+IkqBEECgkgCWLJYiEBRDsDFDYxzFTFUXe
+        fV+Y2MSVI959X5joxMrey9dy1A0YZ/lf+nryA3Q4wuTVRs3X+hkFfvFT9TLM/tNPsvQ1I5sXUiaJrUGUQVpinAzVaZ1fRlxwV+AdRaedqR1Ms0elqbLfI5+I2dJ
+        cCpnE3FxZMRJnRqYNmWeFdy5lGdxoMPScmoxTlKTSilq28kkfW+zWwo4Kl3rOtNfiS5f5IvkufF+63heyNVUa6m3BNLKU1KVrtX3bPJtXzfjzPqOC2ZUxaVSjUpVUnmlK0ou2d08uOqbMeXK5XpjXjkx707CRyvb/tmTdblfmdzZnY6u1VlXxFSm3L8KNN05RjBJeunFptu/HTiaqPZOqrfiQlbjZx/hz8zP4Oc9lfGw35cTcurM486O7Jrh9D3H/rFRtXqRgvBOUn8bJfM5O2+ztaNW1NTqwcE95pNqV3dPdikla2oTjzk3YfxcLdbfHu2mwPQy9LTX4cn3kvyyf0fmeWcfv4H2rbuAdOi44j0aTVvRuS33F+Cvu+9o+RVMLLOUYT3M7Sa1V1a74vTTmdHHydtVjyYd9xhqx7vw8zO4m6ssvevNCXTN5kxsZ7BKI1QGQgFyGmdrgFTjdhTjZkw/rD32HubTpZj4U89DRTpDI0s17vM57m1mJOKh331fmxkIGnF0u/L2pebCp0SZl2Xce7L6MdTpGuGFZsoYFvgK5HMXK3OpZ3f/H+BCes+kVyxdwt4dM2mjs4DDpnGoyO3s+roZ5rxd7C7Ni1oHjtgQtoPwOKVvAfiMSra3+Ly5HNureD2psiKvY85WwqTPZbXrrNnlsUdGFqMpGONNcjRQqShLepzlCX6oScX8VmIuRzKQ6dbbOLm4ueJry3fVvVnl89fE+q/s57TxlR9FiK34kX3XUl60GlZbz1ad9fA+M75cMY1xLwzuN3E5YTKar6x+1LtND0SoUKz3m71HTk0t2zW45Red2728D5rX7bbR3d1YyrbTWN/wDdbe+Zy8Rim9TDUlcu5XK7qOmSagMdiKlR71Sc6ks85ylJ/GTZ9I7SYB0sJTp3Vo0V3eTj+b32l8jwGyqG/XpQ/VUgn03lf5XPrHbqkrRj+ZYdvqt1yfwdvief6vL+pxz5fU/26/TeL+b4piaeXRrzAcMzTilr1XmgEsz0Zl2ceU7lRpDVS+XmMgvvzYctBXI5HKxGrKwvrIKssyqCzXU39mXu7VNDsPC8l1XmLpo0YX14+1HzRx10w3F0/wASXtS82asPREYt/iT9uX/I3YRky9ov3bsLg1yOjhsMtLcRWFksjdh7ZP7+8jPK1pIn7qvAo17/AI+f9CEbqtPEuQSEbxbkdlczTCZ0MNXSZx1IbGoRZtUr0uH2m0smBidqX4nAlWM9SuyOhXU3YvFX4nJrVC5zESKkTau4LkDcXKY9Fse+Zp1AnMzzkXjEWmOQdOLbUYptvRJNtvwS1N3ZnYdTGVlSp5LWpN6U483zfBLj8WvtmwdmYXA07UYLetZzlZ1J+MpfRWXgZ8nPjhde5442+HynsjsTEfvVOUsPXjGO9K8qVRK9mlm424ns+18as6krU6mVPdVoSeTha117/keyjtByuee25j5qW7FtX5Hn534vLMp7a/jf/XXxW4Y6s+rp8b2ngKsXnSqJZawlz6GHifaMFipO8XJ31Vzz23NnQqTaqRvfR/mT8Gd+HL+Gxhnx77x88hzKlI3bZ2ZLDys84P1Zc/B+JzJyyNp3Y3sxTebKpspkgdDF3aDyRpw3rx9qPmY8O+6jRhn34+0vNHHl7unH2MxE+/Lxk/M2Yeqc2tLvPq/MZSmGux77u7QxWhuo4w8yq4+niibiqZPR/vb5kOH+9kF0H1MylmEmLihtjdkoOLBYyKyJpwMmJkx8hDEdLbyEzkaN3IqNC7AmLedwZXOusEhVbDpIBpyJDdmbOq4irGlSjeUvglxlJ8Ir7zDnHMmExlSjLfpTlCS4xfDk+DXgyu+uydfN9h7N7IjhaSo0l41JtZzlzf0XBGrF13dr3ffzPlWE7YTjVjVqU05ppTlBuPpILg4ab1tJJr4G7GdvJuo3SpL0VlaNS7nfi95P+uhyT0+W93zW85cX0zAVbtmTaeGvO9jxmF7TUKu6qzrwSlvShSStO35ZT3t5x8LI+u7K2XhqlBShTUbp5xy+KWTDh9Neq/McnNJN+zwOJjutS5O4zaFJTipJ+Jg29tmhTqyozk47rtv2bhmk9I3lfPl7zj1O1tKmlGHpai4u0aafve9LyL6L2PqjobQwMa1NwmtfimuKPm+1cFOjJwnqtHwa4NHq6HaiEIJzlOrUebySjG/5U3w8c2cDbu2ZYm29CMVG9rXcs9U5cjfjllY8lljzsmDSkb5wVjH6KzOqWVzWOtg5d000PXj7S8zFgZcD0GzcIpVIeMo/No5eTtt0cffTmSpyb04/UYqTPTbK2dGV7/qt8zXidjq10uZO19DxjRISOxitn2ObKja5SbE9IyA2IINS1GCovNlqRoQ7h72QhyL3shUzZmeTDqTEykLQGnkHCrYzuYEphobb3izNXr3MjnmBKQaLaSkJqTLkxMipE2lyCpsokdSkN1Ooem2Z22xdCk6VOraNrZq7tpqeQUw98nS9tWOxDm96Tbbd23xbvdmaUiVZZLr9GZqtTIchWirTFJguQEpFyItNlIAq5UmPQta8O8zubMxdpw9qPmjzdCZ0MNU70eq8zPPFphl3eq2bjt343Ot/5JNHiKGJsbVi8jK4tZm7GKxUWmcerK9xNTECfTD0VpvvIZ/SlgTSnmSUxe8S5aRbxbeQtMjkBmTYlvMucvIU3qID3gZSKuDJjIDlmLcg3qLkCVSYpsa1kJaKhBkwUyTYNypE01MdTeRjUjVh03ktX8ubfJCsOVdV/LP6fUyVJGvHTsko6J6/qfPoc+bHjBkK4tsjkAmaaRtoTKkwN4q4tAymzXQqd5dUYqbG05d5dV5k5RWNao1DTGqYoSDhIzsXK1OYMZC94kGLR7NuWJ3iCG265Vyn5XK3shgRbYtEbAGSEsZcSmBruWwbkkBKeoDLepGhkGWgtjaguTCERVQuw2oUkXE0EY5+81T7q3F6z9d/yr6kl3Paf8Kf83l78kxyF5V4TFvJdUY6jNeKeS6mOZeKMi5MiBZaNEGEIQkxRYcXmuoqIaeYqcaIMO4ilIZcixUpsZBwYhMbEmxS7lgXILQdlLf19ZaPmuT8fEyyQ1S1LlHf9r/l/fzJ8NPP6klsGLLeo0rkLGyYpgFEmQkwAS5AxQUxkCTFyGS0zCweHdRuMbXtdX424BuSbpVmY2mt1Kb1fqL+d+C4BVcO4P8AEja2W7xk+S8ObMtWbk3J6v7suSHO/geO673+9SXzBiwikhxSyRikbcVLJIxzZeCaUy0UyJlpNKTBbIIDQV80AmFHVCOLpSNCMsDRTZORwxDYMz3HUmRVxLkLII3SfEC4aBmiVD9f2lr/AJv7i4rMOMcyTzzWq1XPoLwfkLdgGw2riRktkmwWRyAlJlzZTYLkAJxc7RY7ZFZqSqXsotXfXLdXNvMqOFdWW4pQhfWVSW7GKvbNnrcN+zuo6a3cTBrNpKLcXfjvqWfWxlz+p4eLHXJlrf6iYW3szbWwimrPJ6xfJ/00PJVVbLke42phKtGCjVik0vWTvFuyUrP/AKPE1l3pdX5mXoc943V3GerLqlLUZHULDYWc33ISl0TfzDp4ad/Ul/tfwO25T5nCMWjFI37RpSSTcZJX1afmYanPmaYXcTl5LkRFSIi0iuWii0AXFBx1RSLhr8fJk04kENgwIBRFTgmPpsQMiTVQy5ALlknt1oAzCpkaIaKTFN55DGLAjFK6bWqWa+qM8nmE09VquIc6d05RWnrL6rwDwfkhsklYjKkNK7mdzvKyGylkc7ETzss29beSKxx2m3T0ey8Phqs/R1qrhDmsnUn4ytkly8ep6HDYNYTvYetuQve6u42/U82pHktm4Wds4Tu1aOit4u5pqU1uv0rlNxj3Y3aimtF/c4OfC55a6+3y7X6/dNz+T3VTb2HxFOVKvJNZ7tRL8yWuXU8/szZ+GrSkpQj6SPrJSbi1eynFcU+TXHM8lGvLd3b2SzaWRrw+Jmp05QupWzcLXcYu7fJ5X1M8fQ/Cxs48rN/X8q6rl58vaYrZ+kfV6ZXXLwOdtDA1VnTefKSv8wcZt6UqF7bs4zi4yi+7KLvn4NaOL5/BC7VOcXGVNQnaykndK+WcX/U5+Pi5531vSHKxu1K0FadOLTyalF299nY4VepGT7sN2/BO6v4XzV+XQ7e26dSUFUTTaym45KUVpJrS64+487Ulmez6aY9O5NX8itCyIOeefPz4lKJ0koNAtFoAJFrX4+RSLgsyTi4hxYuIcRUxpjExKGE0x3IBcoWj27lLUuQuDzDZk1ipICw3iBJAAMGU3F3QchbQyXUimt6OXNcvHoInIbfijPXmleXHguT5jkFLqztkvWf8N+HU62ysDGnm1efF628EcHC1Lzjfn/c6u0NpejhZZzksvDxZHNjldYY+7G3b0eEakpO1rfeZ5jbe1E7wgtX3nn7oqxn2LtiVN1FNuSnB6v8AOk3H3O7XvXI5kpa5/dyeH0nRyW5d/Git7Ons6rG79Je2is07Z55anRxdHds6VmpJwyzsnqnyyTXvOPhIJ26o7tGCjnpw4hzdstz/AA2w4999q2fGtvJrD1pwtaUY0ptN6710uL4+BgxOArJtyi4ZttTio/KTueu2BPvZOTT4Ny8rnntvwXpaiSyTdvjlqZcXNvkuMmm2XDJjtzMHjZxjKSS7vra7rT7qi1431ObiN3ee76t3bpwQ2d4px0V81wfFGeR6GOMl383JkOny56dQoi4jZc+fnxKqS5FxI0HTiMxJFwWb6MJIkFm+jI2cKgMiBFBxCha1GSQsMRpYohADsR1Q2oWQxbKKqEIIy5a/EGZCDIL0MNbV9CEKxTWHDf4kepNo+u/d5IhDb8f7MGdDFx6FkLpN2z9V1X0O9IhDzvUf3O3i8OzsX1jg7e/xZdfqQhy8H3t/Rvy/dvP4nj7X0MrLIezj4ebl5FEavU/1fRkIFEAMiQgqIYi4avoyEIqoXEKJCFEtahMhBGohCAH/2Q==">
+            </div>
+            <div class="g4"><img
+                    srrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFcavCo96XeSDSOpQ4MbBWS7BpdEU3nd9FUg&s">
+            </div>
+            <div class="g5"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqjJauxSPRpFq9-8f8MMpza72DkfN2gQpyTg&s">
+            </div>
+            <div class="g6"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHzaabbE6mF7PLMj8kK1Tp6_YrcEa1UYdgzQ&s">
+            </div>
+            <div class="g7"><img src=""></div>
+            <div class="g8"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyV9Fb_E1Krt_jTSt9PufjxxzVzhpHH93hoQ&s">
+            </div>
+            <div class="g9"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAeKX_b0E4JbEbtGReazU1LSnhU-uLTHM5A&s">
+            </div>
+            <div class="g10"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSluG5DmaNSKE_MSMw0HJqB0j7mmzu4U0oitI5URDZnUJl
+        -fteoMxTHvWNHDuYa-SPw-Jg&usqp=CAU"></div>
+        </div>
+    </div>
+    <div class="div7">
+        <div class="content2">
+            <div class="h2"><img src="https://www.ikea.com/images/d2/80/d2809465799e2c3c8da75cd30b261cdf.jpg?f=xs">
+            </div>
+            <div class="h3"><img src="https://www.ikea.com/images/38/43/38434ce4cca6a1e0d441e613c46c745f.jpg?f=xs">
+            </div>
+            <div class="h4"><img src="https://www.ikea.com/images/2a/9c/2a9c1486f23a6e9f5ffd82baeb3f704b.jpg?f=xs">
+            </div>
+        </div>
+        <div class="content3">
+            <div classs="k5"><img src="https://www.ikea.com/images/ba/b7/bab772d20f625a053563b1154120ed80.jpg?f=xs">
+            </div>
+            <div class="k6"><img src="https://www.ikea.com/images/5a/a9/5aa9161d52a8d5e7dccbc3aef9da39a8.jpg?f=xs">
+            </div>
+            <div class="k7"><img src="https://www.ikea.com/images/2a/f8/2af838010054c53e8c64061d688dc84d.jpg?f=xs">
+            </div>
+        </div>
+    </div>
+    <div class="do">Collections in focus</div>
+    <div class="do1">All your new collections at a galnce</div>
+    <div class="cn">
+        <div class="cn1"><img src="https://www.ikea.com/images/3e/91/3e91befde74fec8e697d8b5aa89601e0.jpg?f=xl"></div>
+        <div class="cn0">
+            <div class="cn2">
+                <p>Shop now and get up to Rs.5 Lakh* </br>back!</p>
+            </div>
+            <div class="cn3">
+                <p>1st July - 31st August 2024</p>
+            </div>
+            <div class="cn4">
+                <p>Offer valid for IKEA business customer members</p>
+            </div>
+            <div class="cn5">
+                <p>Terms and conditions apply.</p>
+            </div>
+            <div class="cn6"><button>Know more</button></div>
+        </div>
+    </div>
+    <div class="y">More from IKEA India</div>
+    <div class="scrollable-contento">
+        <div class="o1">
+            <div class="o5"><img src="https://www.ikea.com/images/cc/68/cc689c9226281202ce9d2b5a509f1e9d.jpg?f=xxs">
+            </div>
+            <div class="o6"><img src="https://www.ikea.com/images/b6/17/b61725f65915b2854bcb5a74adc44d22.jpg?f=xxs">
+            </div>
+            <div class="o7"><img src="https://www.ikea.com/images/90/9a/909a993c652b995335634681bbda2b9e.jpg?f=xxs">
+            </div>
+            <div class="o8"><img src="https://www.ikea.com/images/ed/41/ed41e6e4b1d0bbe5acdc3b0b289b90a9.jpg?f=xxs">
+            </div>
+        </div>
+    </div>
+    <div class="o2">Discover our services</div>
+    <div class="o3">
+        <div class="o4">
+            <p>All services</p>
+        </div>
+        <div class="o9">
+            <p><i class="fa-solid fa-arrow-right-long"></i></p>
+        </div>
+    </div>
+    <div class="div8">
+        <div class="l0">
+            <div class="l1">
+                <img src="https://www.ikea.com/images/77/2b/772b6b25c9b65b2d9d1dc9946475e342.jpg?f=xxs">
+            </div>
+            <div class="l2">
+                <img src="https://www.ikea.com/images/c3/bd/c3bd865123ddbd69fb80677f0d852e21.jpg?f=xxs">
+            </div>
+            <div class="l3">
+                <img src="https://www.ikea.com/images/2f/91/2f911496af63d4dd1a81109c1467f1d9.jpg?f=xxs">
+            </div>
+            <div class="l4">
+                <img
+                    src="data:image/png;base64,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">
+            </div>
+        </div>
+        <div class="m0">
+            <p>Explore our furniture & home furnishing range</p>
+        </div>
+        <div class="m1">
+            <div class="m2">
+                <div class="m3">
+                    <p>IKEA is a global leader in life at home.</p>
+                    <div class="m9"></div>
+                    <p>Whether you just moved into a new home or looking</p>
+                    <p>to revamp your current one, we at IKEA are here</p>
+                    <p>to inspire you with affordable home furniture solutions,</p>
+                    <p>there is a piece of furniture to every corner of
+                    <p>your home.Create a home that is perfect for you.</p>
+                    <p>Shopping at IKEA is a bit different and exciting compared</p>
+                    <p>to your shopping at an everyday retail. It is about experiencing</p>
+                    <p>solutions first hand and getting to know ideas and inspirations</p>
+                    <p>that can fit perfectly into your home. That’s why, we offer more</p>
+                    <p>than 7500 products, solutions at our store along with home</p>
+                    <p>furnishing ideas and services for you to explore.</p>
+                </div>
+                <div class="m4">
+                    <p>Sofas | Beds | Dining | Tv units | Mattresses | Seating |
+                        Coffee tables | Wardrobes | Storage | Bookshelves | <br> Shoe racks |
+                        Decor| Bathroom | Textiles | Pots & plants | Home electronics |
+                        Home improvement | Lighting</p>
+                    <hr class="m11">
+                </div>
+            </div>
+        </div>
+        <div class="m5">
+            <p>Join IKEA Family</p>
+        </div>
+        <div class="m6">
+            <p>Enjoy member-only discounts & offers, early access</p>
+            <p>to IKEA sale, delicious food offers and much more.</p>
+            <p>Join for free.​</p>
+            <p class="m10">See more</p>
+        </div>
+        <div class="m7">
+            <p>Join the club</p>
+        </div>
+        <div class="m8">
+            <p>IKEA Family</p>
+        </div>
+        <div class="m9">
+            <p>Log in</p>
+            <p>Join IKEA Family</p>
+            <p>Member Offer</p>
+            <p>Workshop & Events</p>
+        </div>
+        <div class="m12">
+            <p>Services</p>
+        </div>
+        <div class="m13">
+            <p>Delivery Service</p>
+            <p>Click & collect</p>
+            <p> Personal shopper</p>
+            <p>Design your room</p>
+            <p> Assembly Service</p>
+            <p>Measuring Service</p>
+            <p>Kitchen Planning</p>
+            <p>Installation Service</p>
+            <p>Track & manage your order</p>
+            <p>Customer Service</p>
+            <p>Recycle Program</p>
+        </div>
+        <div class="m14">
+            <p>Help</p>
+        </div>
+        <div class="m15">
+            <p>How to shop</p>
+            <p>Return policy</p>
+            <p>Prices and price tags</p>
+            <p>Contact us</p>
+            <p>FAQ's</p>
+            <p>Planners</p>
+            <p>Gift Card</p>
+            <p>Feedback</p>
+            <p>Terms and conditions</p>
+        </div>
+        <div class="m16">
+            <p>About IKEA</p>
+        </div>
+        <div class="m17">
+            <p>This is IKEA</p>
+            <p>Careers at IKEA</p>
+            <p>Newsroom</p>
+            <p>Sustainability</p>
+            <p>IKEA Stores</p>
+            <p>IKEA Restaurant</p>
+            <p>IKEA for Business</p>
+        </div>
+        <div class="m18">
+            <p>IKEA Business Network</p>
+        </div>
+        <div class="m19">
+            <p>Join the membership program for business</p>
+            <p>customers with exciting benefits and features. Join</p>
+            <p>us for free and enjoy member discounts, quick-fix</p>
+            <p>tips, online tutorials and a lot more.</p>
+        </div>
+        <div class="m20">
+            <p>See more</p>
+        </div>
+        <div class="m21">
+            <p>Join now</p>
+        </div>
+        <div class="m22">
+            <div class="m23">
+                <a><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="m24"><a><i class="fa-brands fa-instagram"></i></a></div>
+            <div class="m25"><a><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div class="m26"><a><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+        <div class="m27">
+            <a><i class="fa-solid fa-globe"></i></a>
+            <a>Change country</a>
+        </div>
+        <hr class="v1">
+        <div class="v2">
+            <p>© Inter IKEA Systems B.V. 2000-2024</p>
+        </div>
+        <div class="v3">
+            <p1>Privacy policy</p1>
+            <p2>Cookie policy</p2>
+            <p3>Cookie settings</p3>
+        </div>
+</body>
+
+</html>
